@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: #f0f0f0; /* Light text color */
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    color: #61dafb; /* Light blue color */
+    background: rgba(40, 44, 52, 0.9); /* Dark translucent background */
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #61dafb; /* Light blue border */
+}
+
+video {
+    border: 3px solid #61dafb; /* Light blue border */
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); /* Slight shadow for effect */
+}
+
+canvas {
+    position: absolute;
+}
+
+.watermark {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #61dafb; /* Light blue color */
+    background: rgba(0, 0, 0, 0.5); /* Translucent background */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
